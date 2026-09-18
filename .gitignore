@@ -1,0 +1,49 @@
+# Quartus II (including 15.0): compilation databases and build products.
+# Directory rules apply to the top-level project and standalone subprojects.
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+
+# Inspected ModelSim/QSim output directories. Keep input waveforms such as
+# choose/Waveform.vwf, and do not blanket-ignore HDL or simulation scripts.
+simulation/modelsim/
+simulation/qsim/
+**/simulation/modelsim/
+**/simulation/qsim/
+
+# Local Quartus workspace state and generated compiler metadata/reports.
+*.qws
+*.ipinfo
+*.ddb
+*.rpt
+*.summary
+*.qmsg
+*.smsg
+*.done
+*.jdi
+*.pin
+*.log
+PLLJ_PLLSPE_INFO.txt
+
+# Reproducible programming binaries (memory initialization sources stay tracked).
+*.sof
+*.pof
+*.jic
+*.rbf
+*.rpd
+*.svf
+*.jam
+*.jbc
+
+# Editor backups, temporary files, and OS metadata.
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Keep source/configuration, including .vhd/.v/.tdf, .qpf/.qsf/.qip, .bdf/.bsf,
+# .cmp/.inc/.ppf, .sdc, .vwf, .cdf, .mif/.hex, and handwritten .tcl/.do scripts.
