@@ -1,6 +1,6 @@
 # FPGA-Based Digital Frequency Meter
 
-A digital frequency meter implemented on an FPGA using **VHDL**. The project was designed and tested on an **Altera Cyclone IV** FPGA using **Quartus II 15.0**.
+A digital frequency meter implemented on an FPGA using the **VHDL hardware description language**. The project was designed and tested on an **Altera Cyclone IV** FPGA using **Quartus II 15.0**.
 
 The frequency meter measures periodic digital input signals over a range of approximately **10 Hz to 25 MHz**. To cover this wide range, the design automatically selects between three measurement ranges:
 
@@ -21,7 +21,7 @@ The system is divided into three main modules: **range selection (`choose`)**, *
 
 ## Development Environment
 
-- **HDL:** VHDL
+- **Coding language:** VHDL (hardware description language)
 - **FPGA:** Altera Cyclone IV
 - **Software:** Quartus II 15.0
 
